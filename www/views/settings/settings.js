@@ -2,7 +2,7 @@ angular.module('starter.controllers')
 .controller('SettingsCtrl', function($scope, Settings, Locations){
 
     $scope.settings = Settings;
-    $scope.locations = Locations;
+    $scope.locations = Locations.data;
     $scope.canDelete = false;
 
     $scope.remove = function(index) {

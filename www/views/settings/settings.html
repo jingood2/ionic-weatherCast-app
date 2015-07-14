@@ -4,7 +4,7 @@
             <ion-item class="item-divider">Units</ion-item>
             <ion-radio ng-model="settings.units" ng-value="'us'">Imperial (Fahrenheit)</ion-radio>
             <ion-radio ng-model="settings.units" ng-value="'si'">Metric (Celsius)</ion-radio>
-            <div class="item-divider">Days in forecast <span class="badge badge-dark">{{settings.days - 1}}</span></div>
+            <ion-item class="item-divider">Days in forecast <span class="badge badge-dark">{{settings.days - 1}}</span></ion-item>
             <div class="item range range-positive">
                 <input type="range" name="days" ng-model="settings.days" min="2" max="8" value="8"> 8
             </div>

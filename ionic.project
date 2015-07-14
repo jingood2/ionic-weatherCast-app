@@ -1,4 +1,12 @@
 {
   "name": "example",
   "app_id": ""
+  "proxies" : [
+
+     {
+        "path": "/api/forecast" ,
+        "proxyUrl" : "https://api.forecast.io/forecast/a4dd32a05441b7fba52d81c0efc39eb4"
+     }
+
+  ]
 }
